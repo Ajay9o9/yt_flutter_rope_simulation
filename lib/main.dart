@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_rope_sim/spring_a.dart';
+import 'package:flutter_rope_sim/spring_b.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,6 +16,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: SpringA());
+        home: SpringB());
   }
 }
